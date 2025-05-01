@@ -1,0 +1,46 @@
+# Binários gerados (executáveis)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretório bin (caso esteja compilando para bin/)
+bin/
+
+# Diretório pkg (cache de pacotes compilados, se aplicável)
+pkg/
+
+# Diretório vendor (caso esteja usando módulos Go e não queira versionar dependências vendorizadas)
+vendor/
+
+# Cache de build do Go
+*.a
+
+# Arquivos temporários ou de backup
+*~
+*.swp
+*.tmp
+*.bak
+
+# Arquivos de IDEs/editores
+.idea/
+.vscode/
+*.iml
+
+# Arquivos de logs
+*.log
+
+# Cobertura de testes
+coverage.out
+coverage.html
+
+# Diretórios de testes ou benchmarks
+testdata/
+benchmarks/
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db

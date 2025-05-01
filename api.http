@@ -1,0 +1,31 @@
+GET http://localhost:3333/api/users
+
+###
+
+GET http://localhost:3333/api/users/c3fc7b16-a0e9-4dff-a21b-5afa54374f1f
+
+###
+
+POST http://localhost:3333/api/users
+Content-Type: "application/json"
+
+{
+  "first_name": "Ilana",
+  "last_name": "Miranda",
+  "bio": "Minha Bio Deve ter no mínimo 20 caracteres"
+}
+
+###
+
+PUT http://localhost:3333/api/users/c3fc7b16-a0e9-4dff-a21b-5afa54374f1f
+Content-Type: "application/json"
+
+{
+  "first_name": "Ilana",
+  "last_name": "Santana",
+  "bio": "Minha Bio Deve ter no mínimo 200 caracteres"
+}
+
+###
+
+DELETE http://localhost:3333/api/users/c3fc7b16-a0e9-4dff-a21b-5afa54374f1f
